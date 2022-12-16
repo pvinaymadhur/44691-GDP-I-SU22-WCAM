@@ -1,0 +1,50 @@
+.homepage-container {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-title {
+    text-align: center;
+}
+
+.homepage-title h1 {
+    color: #F2F2F2;
+}
+
+.homepage-title h2 {
+    color: #f2f2f2f0;
+}
+
+.homepage-buttons {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 20%;
+}
+
+.button-emergency {
+    animation: glowing 1300ms infinite;
+    border-radius: 20px !important;
+  }
+
+@keyframes glowing {
+    0% {
+      background-color: #a80505;
+      box-shadow: 0 0 5px #a8050d;
+    }
+  
+    50% {
+      background-color: #e81919;
+      box-shadow: 0 0 20px #e8191d;
+    }
+  
+    100% {
+      background-color: #a80505;
+      box-shadow: 0 0 5px #a8050d;
+    }
+  }
